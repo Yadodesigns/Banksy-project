@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:grey;" id="bodd" >
+    
+<div id="" style="background-color: rgb(42, 165, 149);height:300px;width: 300px;">
+    <div>
+        <button id="butt" onclick="myFunction()">I'm a button</button>
+    </div>
+    <div id="iframed" style="display: none;">
+        <h1>hello</h1>
+    </div>
+</div>
+<div class="canary" style="background-color: blue;height:300px;width: 300px;" onclick="myFunctional()">
+</div>
+
+<iframe src="https://flying-copper.netlify.app/" id="framed" frameborder="0"></iframe>
+
+
+    <script>
+
+function myFunction() { 
+	document.getElementById("framed").style.display="block"; 
+} 
+
+</script>
+<script>
+    function myFunctional() { 
+	document.getElementById("framed").style.display="none"; 
+} 
+</script>
+</body>
+</html>
